@@ -20,11 +20,11 @@ BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 SECRET_KEY = '_3w1@gqp(!c#^25ts!x6f^ay(k-l4_$a&#fd*8i^^2ui@rz7jn'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django.arttrick.co']
 
 
 # Application definition
