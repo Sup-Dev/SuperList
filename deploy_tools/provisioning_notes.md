@@ -30,9 +30,9 @@ eg, on Ubuntu:
 Assume we have a user account at /home/user-name
 
 /home/user-name
-|--sites
-   |--SITENAME
-      |--database
-      |--source
-      |--static
-      |--virtualenv
++--sites
+|  +--SITENAME
+||    +--database
+||    +--source
+||    +--static
+||    +--virtualenv
